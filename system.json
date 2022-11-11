@@ -1,60 +1,34 @@
 {
   "id": "tsl",
   "title": "Thirsty Sword Lesbians",
-  "description": "Anywhere that swords cross and hearts race, thirsty sword lesbians are there.",
+  "description": "Anywhere that swords cross and hearts race, thirsty sword lesbians are there",
   "version": "1.0.0",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10",
-    "maximum": "10"
+    "minimum": 10,
+    "verified": "10.287",
+    "maximum": 10
   },
-  "authors": [
-    {
-      "name": "Oscar Masferrer",
-      "url": "YOUR WEBSITE ADDRESS HERE",
-	  "email": "oscarmasferrer.oscar98@gmail.com",
-	  "discord": "OscarMasferrer#8888"
-    }
-  ],
-  "scripts": [
-    "scripts/system-script-1.js",
-    "scripts/system-script-2.js"
-  ],
-  "esmodules": [
-    "scripts/system-module-1.mjs"
-  ],
-  "styles": [
-    "styles/system-styles-1.css",
-    "styles/system-styles-2.css"
-  ],
-  "packs": [
-    {
-      "name": "monsters",
-      "label": "My Monsters",
-      "path": "packs/monsters.db",
-      "type": "Actor"
-    },
-    {
-      "name": "items",
-      "label": "My Items",
-      "path": "packs/items.db",
-      "type": "Item"
-    }
-  ],
-"languages": [
+  "authors": [{
+    "name": "Oscar Masferrer"
+  }],
+  "esmodules": ["module/tsl.mjs"],
+  "styles": ["css/tsl.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
     {
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
     }
   ],
-  "socket": false,
-  "initiative": "1d20",
   "gridDistance": 2,
   "gridUnits": "m",
-  "primaryTokenAttribute": "resources.health",
-  "secondaryTokenAttribute": "resources.power",
-  "url": "https://your/hosted/system/repo/",
-  "manifest": "https://your/hosted/system/repo/system.json",
-  "download": "https://your/packaged/download/archive.zip"
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt",
+  "changelog": "CHANGELOG.md"
 }
